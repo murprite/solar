@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 
 export default function Footer() {
     return (
-        <footer className="bg-[#111111] flex flex-col items-center">
+        <footer className="bg-[#111111] flex flex-col items-center px-[50px]">
             <div className="container mx-auto pt-[110px] pb-[140px] border-b-2 border-b-[#989898] flex justify-between items-center">
                 <div className="flex">
                     <img src={logo} alt="Solar" />

@@ -9,7 +9,7 @@ import Footer from "./Footer";
 
 export default function Body() {
     return (
-        <main> 
+        <main className="px-[50px]"> 
             <Parallax strength={200} bgImage={main}>
                 <div className="flex flex-col h-[95vh] pb-[105px]">
                     <h2 className="text-[64px] font-[700] font-['Open_Sans_Condensed'] text-white text-center mt-auto shadow-md">SUPERNOVA REMNANTS</h2>
@@ -51,7 +51,6 @@ export default function Body() {
                     <img src={thumbnailB} alt="" />
                 </div>
             </div>
-            <Footer />
         </main>
     );
 }

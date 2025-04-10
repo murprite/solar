@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 export default function Header() {
 
     return (
-        <header className="container mx-auto py-[25px] grid grid-cols-3 flex-none">
+        <header className="container mx-auto py-[25px] grid grid-cols-3 flex-none px-[50px]">
             <div className="flex items-center">
                 <img src={logo} alt="Solar" />
                 <h1 className="font-['Open_Sans_Condensed'] ml-[15px] font-[700] tracking-[.15em] uppercase text-white text-[32px]">Solar</h1>
